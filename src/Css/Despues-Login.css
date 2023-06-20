@@ -1,0 +1,89 @@
+/* Estilos generales */
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .left-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .perfil {
+    position: relative;
+    margin-left: 10px;
+  }
+  
+  .perfil .pi {
+    margin-left: 10px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+  }
+  
+  .perfil:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Estilos del sidebar izquierdo */
+  .left-sidebar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .news-box {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  /* Estilos del sidebar derecho */
+  .right-sidebar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  

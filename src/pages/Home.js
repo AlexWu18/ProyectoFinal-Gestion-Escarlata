@@ -1,7 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
 import '../Css/home.css'
-import { createTheme } from "@mui/material/styles";
 import { Link } from "react-router-dom";
 const Home = () => {
 

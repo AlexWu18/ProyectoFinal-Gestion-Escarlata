@@ -8,6 +8,7 @@ import Contactos from "../pages/Contactos";
 import Nosotros from "../pages/Nosotros";
 import Header from "../pages/Header";
 import SignUp from "../pages/SignUp";
+import App from "../pages/CruzRoja";
 
 const RoutesSite = () => {
   const [isLoggedIn, setLoggedIn] = useState(false);
@@ -15,7 +16,7 @@ const RoutesSite = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/CruzRoja" element={<CruzRoja />} />
+        <Route path="/CruzRoja" element={<App />} />
         
         {/* Ruta pública */}
         <Route path="/" element={<Layout />}>
